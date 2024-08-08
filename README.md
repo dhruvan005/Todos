@@ -1,8 +1,29 @@
-# React + Vite
+# Todos
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
+the Todo App is made using Vite + React Framework 
+The Todo App is a simple yet functional application that allows users to manage their daily tasks. Users can create, edit, and delete tasks as well as mark them as completed.
+The app provides a user-friendly interface with a responsive design.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Add Todo**: Users can add new tasks to the list. Each task has a text description.
+- **Edit Todo**: Tasks can be edited directly within the list. The edit mode is toggled with a button, allowing users to update the task's text.
+- **Mark as Completed**: Tasks can be marked as completed by checking a checkbox. Completed tasks are visually distinguished with a strikethrough and a different background color.
+- **Delete Todo**: Users can delete tasks from the list with a simple button click.
+- **Responsive Design**: The interface is designed to be responsive and works well on both desktop and mobile devices.
+
+## Project Structure
+
+```plaintext
+├── src/
+│   ├── components/
+│   │   ├── TodoItem.js  # Individual todo item component
+│   ├── context/
+│   │   └── useTodo.js   # Custom hook for managing todo state
+│   ├── App.js           # Main application component
+│   ├── index.js         # Entry point
+├── public/
+│   ├── index.html       # Main HTML file
+├── package.json         # Project dependencies and scripts
+└── README.md            # Project documentation
