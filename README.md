@@ -1,9 +1,9 @@
 # Todos
 
 ## Overview
-the Todo App is made using Vite + React Framework 
-The Todo App is a simple yet functional application that allows users to manage their daily tasks. Users can create, edit, and delete tasks as well as mark them as completed.
-The app provides a user-friendly interface with a responsive design.
+-The Todo App is made using Vite + React Framework 
+-The Todo App is a simple yet functional application that allows users to manage their daily tasks. Users can create, edit, and delete tasks as well as mark them as completed.
+-The app provides a user-friendly interface with a responsive design.
 
 ## Features
 
