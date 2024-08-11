@@ -30,11 +30,11 @@ function TodoItem({ todo }) {
                 type="text"
                 className={`border outline-none w-full bg-transparent rounded-lg
                     ${
-                        isTodoEditable ? "bg-slate-600 text-white" : "border-transparent"
+                        isTodoEditable ? "bg-slate-900 text-white border-black/10 px-2" : "border-transparent"
                     }
-                    ${
-                    isTodoEditable ? "border-black/10 px-2" : "border-transparent"
-                } ${todo.completed ? "line-through" : ""}`}
+                
+                   
+                 ${todo.completed ? "line-through" : ""}`}
                 value={todoMsg}
                 onChange={(e) => setTodoMsg(e.target.value)}
                 readOnly={!isTodoEditable}
